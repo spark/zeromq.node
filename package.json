@@ -1,6 +1,6 @@
 {
   "name": "zmq",
-  "version": "2.15.3",
+  "version": "2.16.0",
   "description": "Bindings for node.js and io.js to ZeroMQ",
   "main": "index",
   "repository": {
@@ -22,7 +22,16 @@
   "scripts": {
     "test": "mocha --expose-gc --slow 300"
   },
-  "keywords": ["zeromq", "zmq", "0mq", "ømq", "libzmq", "native", "binding", "addon"],
+  "keywords": [
+    "zeromq",
+    "zmq",
+    "0mq",
+    "ømq",
+    "libzmq",
+    "native",
+    "binding",
+    "addon"
+  ],
   "license": "MIT",
   "author": "Justin Tulloss <justin.tulloss@gmail.com> (http://justin.harmonize.fm)",
   "contributors": [
