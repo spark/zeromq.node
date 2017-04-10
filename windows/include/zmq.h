@@ -289,6 +289,9 @@ ZMQ_EXPORT int zmq_msg_set (zmq_msg_t *msg, int option, int optval);
 #define ZMQ_CONFLATE 54
 #define ZMQ_ZAP_DOMAIN 55
 #define ZMQ_ROUTER_HANDOVER 56
+#define ZMQ_HEARTBEAT_IVL 75
+#define ZMQ_HEARTBEAT_TTL 76
+#define ZMQ_HEARTBEAT_TIMEOUT 77
 
 /*  Message options                                                           */
 #define ZMQ_MORE 1
