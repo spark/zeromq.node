@@ -38,7 +38,8 @@
         }],
         ['OS=="mac" or OS=="solaris"', {
           'xcode_settings': {
-            'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
+            'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
+            'CLANG_CXX_LIBRARY': 'libc++',
           },
           # add macports include & lib dirs, homebrew include & lib dirs
           'include_dirs': [
