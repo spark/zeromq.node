@@ -26,7 +26,11 @@
 #include <node_version.h>
 #include <node_buffer.h>
 #include <zmq.h>
+
+#if ZMQ_VERSION_MAJOR < 4 || (ZMQ_VERSION_MAJOR == 4 && ZMQ_VERSION_MINOR < 2)
 #include <zmq_utils.h>
+#endif
+
 #include <assert.h>
 #include <stddef.h>
 #include <stdio.h>
